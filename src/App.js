@@ -1,6 +1,7 @@
 import React, { Suspense, useEffect, useState } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+
 import Loader from './Components/Loader'; 
 import { CartProvider } from './Components/Carts/CartContext';
 import CartPage from './Components/Carts/CartPage';
