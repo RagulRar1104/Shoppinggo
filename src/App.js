@@ -2,7 +2,7 @@ import React, { Suspense, useEffect, useState } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
-import Loader from './Components/Loader'; 
+import Loader from './Components/Loader';
 import { CartProvider } from './Components/Carts/CartContext';
 import CartPage from './Components/Carts/CartPage';
 import InvoicePage from './Components/Carts/InvoicePage';
@@ -43,7 +43,7 @@ const App = () => {
               <Route path="/CartPage" element={<CartPage />} />
               <Route path="/MainMenu" element={<MainMenu />} />
 
-              <Route path="/invoice" element={<InvoicePage/>} />
+              <Route path="/invoice" element={<InvoicePage />} />
               <Route path="/Fashion" element={<Fashion />} />
               <Route path="/Electronics" element={<Electronics />} />
               <Route path="/Grocery" element={<Grocery />} />
